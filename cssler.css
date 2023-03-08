@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*ÜST LİSTE*/
+.top_liste_arkaplan{
+    width: 1580px;
+    height: 75px;
+    background-color: rgb(249, 249, 249);
+    position:fixed;
+    z-index: 20;
+}
+.top_liste_arkaplan ul{
+    margin-left: 50px;
+}
+.top_liste_arkaplan ul li{
+    float: left;
+    list-style: none;
+    padding-top: 25px;
+}
+.top_liste_arkaplan ul li a{
+    padding: 30px 45px;
+    height: 80px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16.5px;
+    color: black;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+}
+.top_liste_arkaplan ul li a:hover{
+    color: #e91e63;
+    animation-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ANASAYFA*/
+.ana_sayfa_buyuk_resim{
+    width: 1519px;
+    height:400px;
+    position: absolute;
+    margin-top: 75px;
+    background-image: url(buyuk_fotograf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ana_sayfa_buyuk_fotograf_metin{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px;
+    padding: 20px;
+    font-size: 30px;
+    transform:rotate(-10deg);
+    letter-spacing: 0.5px;
+}
+.ana_sayfa_buyuk_resim button{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 350px;
+    padding: 30px 60px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    background-color: #8f8f8f65;
+    border-radius: 1px;
+    transform:rotate(-10deg);
+    transition: all 1s;
+}
+.ana_sayfa_buyuk_resim button:hover{
+    transition: all 0.7s;
+    box-shadow: inset 30px 0 0 rgba(57, 56, 56, 0.447);
+}
+.sol_urun_fotograflari{
+    width: 300px;
+    height: 1500px;
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 120px;
+}
+.sol_urun_fotograflari img{
+    margin-top: 50px;
+    transition: all 0.8s;
+}
+.sol_urun_fotograflari img:hover{
+    margin-left: 25px;
+    transition: all 0.8s;
+    box-shadow: -8px -8px 20px #597291a1;
+}
+.sol_urunler_metinleri{
+    width: 280px;
+    height: 1500px;
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 450px;
+    padding: 15px;
+    line-height: 25px;
+}
+.urun_ismi{
+    font-size:20px;
+}
+.ana_sayfa_butonlar{
+    width: 200px;
+    height: 1000px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 780px;
+    padding-top: 130px;
+}
+.ana_sayfa_butonlar button{
+    font-size: 12px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.ana_sayfa_butonlar button:hover{
+   transition: all 0.5s;
+   margin-top: 10px;
+   box-shadow: 0 30px 40px -18px #597291a1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ÜRÜN TANITIMI SAYFA*/
+.urun_tanitimi_buyuk_fotograf{
+    width: 1519px;
+    height:400px;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 3;
+    background-image: url(klavyeee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.urun_tanitimi_buyuk_fotograf button{
+    position: absolute;
+    padding: 28px 44px;
+    margin-top: 270px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.urun_tanitimi_buyuk_fotograf button{
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    transition:all 0.5s;
+    border: 0.2px solid white;
+    font-size: 15px;
+}
+.urun_tanitimi_buyuk_fotograf button:hover{
+    transition:all 0.5s;
+    box-shadow: inset 180px 0 20px white;
+    color: black;
+    margin-left: 100px;
+}
+.urun_tanitimi_buyuk_fotograf_ozellikleri{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    margin-top:560px;
+    margin-left:100px;
+    padding: 30px;
+}
+.urun_tanitimi_buyuk_fotograf_ozellikleri h2, h4{
+    letter-spacing: 0.3px;
+}
+.urun_tanitim_kucuk_resimler{
+    margin-top: 30px;
+    width: 360px;
+    height: 900px;
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 820px;
+    padding-top: 25px ;
+}
+.urun_tanitim_uzun_fotograf{
+    position: absolute;
+    margin-top: 1320px;
+    margin-left: 130px;
+}
+.urun_tanitim_teknik_ozellikler_metin{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    margin-top: 1320px;
+    margin-left: 700px;
+}
+.urun_tanitim_teknik_ozellikler_metin li{
+    font-size: 20px ;
+}
+.urun_tanitim_teknik_ozellikler_metin h2{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ÜRÜNLERİMİZ*/
+.urunlerimiz_buyuk_fotograf{
+    width: 1518px;
+    height:400px;
+    position: absolute;
+    margin-top: 65px;
+    z-index: 1;
+    background-image: url(buyuk_fotograf_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.urunlerimiz_butun_kutular{
+    width: 1200px;
+    height: 1400px;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 150px;
+}
+.urunlerimiz_kutular{
+    width: 250px;
+    height: 330px;
+    position: relative;
+    float: left;
+    display: flex;
+    margin-left: 50px;
+    margin-top:140px;
+}
+.urunlerimiz_kutular img{
+    position: relative;
+}
+.urunlerimiz_buttonlar{
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    margin-top: 915px;
+    margin-left: 150px;
+}
+.urunlerimiz_buttonlar button{
+    z-index: 0;
+    padding: 20px;
+    border: 0.5px solid gray;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 13px ;
+    transition: all 1s;
+}
+.urunlerimiz_buttonlar button:hover{
+    color:white;
+    box-shadow: inset 0 100px 0 0 rgb(36, 36, 36);
+    transition: all 1s;
+}
+.urunlerimiz_buttonlar :nth-child(1){
+    margin-left: 120px;
+    margin-top: 14px;
+}
+.urunlerimiz_buttonlar :nth-child(2){
+    margin-left: 180px;
+    margin-top: 14px;
+}
+.urunlerimiz_buttonlar :nth-child(3){
+    margin-left: 180px;
+    margin-top: 14px;
+}
+.urunlerimiz_buttonlar :nth-child(4){
+    margin-left: 180px;
+    margin-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SEPET SAYFASI*/
+.sepetiniz_baslik{
+    width: 400px;
+    height: 60px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 100px;
+    padding: 30px;
+    font-size: 70px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+.sepetiniz_resim{
+    background-image:url(sepet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    height: 700px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.sepetiniz_resim_urun_isimleri{
+    width: 200px;
+    height: 660px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 300px;
+    padding: 40px;
+    font-size:20px;
+    text-align: center;
+}
+.sepetiniz_resim_urun_kodlari{
+    width: 200px;
+    height: 660px;
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 300px;
+    padding: 40px;
+    font-size:20px;
+    text-align: center;
+}
+.sepetiniz_resim_urun_fiyatlari{
+    width: 200px;
+    height: 660px;
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 300px;
+    padding: 40px;
+    font-size:20px;
+    text-align: center;
+}
+.sepet_urun_baslik_spanleri{
+    font-size: 35px;
+}
+.sepet_toplam_fiyat{
+    padding: 25px;
+    background-color: #d8d8d8;
+    position: absolute;
+    margin-top: 1020px;
+    margin-left: 1100px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.odemeye_gec_button button{
+    background-color: #d8d8d8;
+    position: absolute;
+    margin-top: 1110px;
+    margin-left: 1150px;
+    padding: 25px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: none;
+    transition: all 0.5s;
+}
+.odemeye_gec_button button:hover{
+    cursor: pointer;
+    background-color: rgb(45, 45, 45);
+    color: rgb(216, 216, 216);
+    transition: all 0.5s;
+    box-shadow: 0 30px 40px -18px #597291a1;
+    margin-top: 1140px;
+}
+.sepet_son_bosluk{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*İLETİŞİM SAYFASI*/
+.iletisim_body{
+    background-color: rgb(231, 231, 231);
+}
+.bize_mesaj_gonder{
+    width: 500px;
+    height: 80px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 500px;
+    font-size: 53px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Koulen', cursive;
+    color: #d63864;
+}
+.iletisim_inputlar{
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 300px;
+    border-color: #d63864;
+    border: none;
+}
+.input_span{
+    width: 600px;
+    height: 80px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 130px;
+    border: none;
+    padding-left: 40px;
+    font-size: 17px;
+    transition: all 0.5s;
+    margin-top: 17px;
+    color: #d63864;
+
+}
+.input_span:focus{
+    transition: all 0.5s;
+    transform:  scaleX(1.03);
+    border-color: #d63864;
+}
+.iletisim_gonder_button button{
+    position: absolute;
+    margin-top: 600px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin-left: 700px;
+    border: none;
+    background-color: #d63864;
+    color: #fffff6;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    transition: all 0.6s;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+}
+.iletisim_gonder_button button:hover{
+    transform: scaleX(1.08);
+    transition: all 0.6s;
+    background-color: #d63864;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTERLAR*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.footerall{
+    width: 1500px;
+    height:330px;
+    position: absolute;
+    margin-top: 1750px;
+}
+.container{
+  margin-left: 50px;
+  max-width: 1170px;
+}
+.sira{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-stn{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-stn h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-stn h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-stn ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-stn ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-stn ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer2{
+    position: absolute;
+    margin-top: 400px;
+}
+.footer3{
+    position: absolute;
+    margin-top: -200px;
+}
+.footer4{
+    position: absolute;
+    margin-top: -480px;
+}
+
+
+
+
